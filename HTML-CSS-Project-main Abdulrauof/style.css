@@ -1,0 +1,96 @@
+
+/*  Using color with background */
+body { 
+    background-image: linear-gradient(#3a3acf, #b92d23);
+}
+
+/* .header{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+} */
+
+
+.header .text{
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+#hr1 {
+    margin-top: 100px;
+}
+
+/*  Using google fonts to chnage the font of paragraph */
+.paragraph {
+    font-family: 'Cairo', sans-serif;
+}
+
+/*  Using google fonts to chnage the font of all list items */
+ li {
+    font-family: 'Cairo', sans-serif;
+}
+
+/*  Using google fonts to chnage the font of all table data */
+td {
+    font-family: 'Cairo', sans-serif;
+}
+
+/*  Changing font-weight for a specific part of the table */
+.table1 tr td:first-child{
+    font-weight: bold;
+
+}
+
+.table1 a{
+    color :darksalmon;
+
+}
+
+
+.header .text {
+    width: 650px;
+} 
+
+/*  Centring both tables at the same time */
+.table1, .table2 {
+    display: flex;
+justify-content: center;
+
+}
+
+table, tr, td {
+    border: solid 2px;
+    border-color: gray;
+}
+
+.table1 td {
+    text-align: center;
+}
+
+table td {
+    width: 900px;
+}
+
+.stars {
+    text-align: center;
+    color: gray;
+    border: dotted;
+    width: 200px;
+}
+
+.button {
+    margin-left: 900px;
+}
+
+button {
+    background-color: #ec3b3b;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button a {
+    color: aliceblue;
+    text-decoration: none;
+}
